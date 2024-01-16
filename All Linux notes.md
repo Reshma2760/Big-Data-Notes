@@ -12,7 +12,8 @@ in linux <br/>
 ping 8.8.8.8 - used to see the latency for the google server <br/>   
 in windows <br/>
 ping 8.8.8.8 -t <br/>
-
+### CURRENT PATH
+use pwd command to know the current path
 ### task manager in linux
 
 ps -ef <br/>
@@ -140,11 +141,16 @@ su username - used to change the user , for eg su root, the default password for
 
 su -i is also used to go to the root.<br/>
 
+### CD PATHS
+
 cd /home/hduser/Desktop/ss.csv is  absolute path<br/>
 
 [localhost@hduser Desktop] - cd hello  - its an relative path,,, from a path we are going to another area<br/>
 
-cd itself (if not mentioned path_) is used to come back to the previous folder,<br/>
+cd / - going to the root folder <br/>
+cd ~ - going to the home folder <br/>
+
+cd itself (if not mentioned path_) is used to come back to the previous folder, <br/>
 
 ## permissions
 
@@ -173,24 +179,22 @@ here + to give access, - to revoke permissions, r -read , w- write, x -execute. 
 
 # ADD USERS
 sudo is just like run as administrator in windows <br/>
-it is used to providing powwer to execute things <br/>
-
-
-
-
-
-
-
-
-
+it is used to providing power to execute things <br/>
+SU means Super User <br/>
+<br/>
+sudo adduser samuel - used to add user samuel <br/>
+sudo passwd samuel - used to change new password for the user <br/>
+we can verify that the user is created or not <br/>
+grep samuel /etc/passwd
+id - this command used to know the user type , group or others <br/>
 
 
 
 lets see for ss.csv file<br/>
 
 
-shell script are a combination of all the linux commands, once executed it will be an automated process...<br/>
-2 ways to start a shell script. one is using ./   , another one is by using bash bashfile.sh<br/>
+shell script are a combination of all the linux commands, once executed it will be an automated process... <br/>
+2 ways to start a shell script. one is using ./   , another one is by using bash bashfile.sh <br/>
 
 
 
