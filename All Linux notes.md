@@ -4,7 +4,19 @@ hi welcome
 
 ### scoop is developed by google at 2002.
 it has mapper and reuducer. mapper is to copy the files from one area to the another area. Reducer is to do opertions on the analytical data on the mapper on hdfs.<br/>
-just general overview,, i am not sure, but i try.... walk by faith not by sight.<br/>
+# just general overview,, i am not sure, but i try.... 
+# walk by faith not by sight.<br/>
+
+### ping commands
+in linux <br/>
+ping 8.8.8.8 - used to see the latency for the google server <br/>   
+in windows <br/>
+ping 8.8.8.8 -t <br/>
+
+### LS COMMANDS 
+
+ls -lsrt * - means view the files and folders.<br/>
+ls -lsrt samuel - means view that particular folder contents only <br/>
 
 ls - used to see list of all files<br/>
 ls -a used to see all the hidden files<br/>
@@ -55,7 +67,7 @@ generally echo used to print <br/>
 echo $? is to see whether the file is sucessfully execute or not ! <br/>
 
 to set echo value in shell script , for eg, <br/>
-
+### program
 echo hello<br/>
 exit 1<br/>
 
@@ -110,6 +122,38 @@ cd /home/hduser/Desktop/ss.csv is  absolute path<br/>
 [localhost@hduser Desktop] - cd hello  - its an relative path,,, from a path we are going to another area<br/>
 
 cd itself (if not mentioned path_) is used to come back to the previous folder,<br/>
+
+## permissions
+
+chmod we use <br/>
+
+chmod 000 means no permission <br/>
+
+### 0 - no access
+### 1 - only execute access
+### 2 - only write
+### 4 - only read
+
+we combine this numbers to show the permisiions , for eg, chmod 777 ss.csv means all permissions for all users <br/>
+
+1st no means root user <br/>
+2nd no means current user <br/>
+3rd no means group user <br/>
+
+here, we see that , <br/>
+
+chmod o+r <br/>
+chmod u+rw <br/>
+chmod G-rwx <br/>
+
+here + to give access, - to revoke permissions, r -read , w- write, x -execute. <br/>
+
+sudo is just like run as administrator in windows <br/>
+it is used to providing powwer to execute things <br/>
+
+
+
+
 
 
 
