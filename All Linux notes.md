@@ -1,6 +1,6 @@
-hi welcome
+hi welcome <br/>
 
-16/1
+16/1 <br/>
 
 ### scoop is developed by google at 2002.
 it has mapper and reuducer. mapper is to copy the files from one area to the another area. Reducer is to do opertions on the analytical data on the mapper on hdfs.<br/>
@@ -22,7 +22,18 @@ ps -ef | grep-v root  - means it will ignore the root user values... <br/>
 
 sudo kill -9 process_id <br/>
 here, while running a processes in a shell script , the 1st number represents the particular child processes <br/>
-the 2nd no represents the parent process , be careful if u fill 2n no then it will forcely shut down the terminal also <br/>
+the 2nd no represents the parent process , be careful if u fill 2n no then it may forcely shut down the terminal also <br/>
+
+
+ctrl+c is used to kill the current processes <br/>
+
+while u are in the current user , then u need to give chmod to the 1st no as 7, then u can execute... <br/>
+
+sample program <br/>
+
+echo samuel <br/>
+sleep 1000 <br/>
+echo success <br/>
 
 
 ### LS COMMANDS 
@@ -38,9 +49,9 @@ using ls -a cat the .bash_history file to see all the recently typed files, .bas
 
 ### head and tail are used to view the first and the last contents of the file<br/>
 
-for eg, grep sam ss.csv | head -4<br/>
-grep sam ss.csv | tail -3<br/>
-| - is use to pass the values from one area to another area.<br/>
+for eg, grep sam ss.csv | head -4 <br/>
+grep sam ss.csv | tail -3 <br/>
+| - is use to pass the values from one area to another area. <br/>
 for eg, grep sam ss.csv | wc as raw <br/>
 ### wc Here, the numbers represent the wc -l line count, wc -w word count, and wc -c character count, respectively.<br/>
 
@@ -160,8 +171,12 @@ chmod G-rwx <br/>
 
 here + to give access, - to revoke permissions, r -read , w- write, x -execute. <br/>
 
+# ADD USERS
 sudo is just like run as administrator in windows <br/>
 it is used to providing powwer to execute things <br/>
+
+
+
 
 
 
