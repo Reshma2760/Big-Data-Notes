@@ -31,12 +31,31 @@ grep -v is not match things
 grep -w will take only the exact word only.
 grep -l will give the line no
 
+mkdir is used to create a folder
+rmdir is used to remove a folder
+rm filename is used to remove a file
+
+cp is used to copy a file from one area to another area.
+for eg, cp /home/hduser/ss.csv /home/hduser/ss/
+cp /home/hduser/ss.csv /home/hduser/ss/dd.csv
+
+it will rename and then save 
+
+cp -p is used to preserve the file details and then save {like time nd dateare same}
+
+mkdir /home/hduser/samuel
+
+mkdir /home/hduser/samuel/ss if the folder does not exist then it will create a folder for us
+mkdir -p /home/hduser/samuel/ss , antha madri folder iruntha create panu, ilana vituru
+
 
 lets see for ss.csv file
 
 
 shell script are a combination of all the linux commands, once executed it will be an automated process...
 2 ways to start a shell script. one is using ./   , another one is by using bash bashfile.sh
+
+
 
 
 
