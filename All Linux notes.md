@@ -12,8 +12,17 @@ ls -lart used to see all the hidden files along with the file size
 ls -lrt used to see all the files
 using ls -a cat the .bash_history file to see all the recently typed files, .bashrc files is to view the vriables tht are declred globally..
 
+head and tail are used to view the first and the last cntents of the file
+
 grep commands are used to see the searched word along with the files.
+grep Master ss.csv
+remember at starting grep is case sensitive, for normal grep
+
+lets see for ss.csv file
+
 
 shell script are a combination of all the linux commands, once executed it will be an automated process...
 2 ways to start a shell script. one is using ./   , another one is by using bash bashfile.sh
+
+
 
