@@ -13,6 +13,18 @@ ping 8.8.8.8 - used to see the latency for the google server <br/>
 in windows <br/>
 ping 8.8.8.8 -t <br/>
 
+### task manager in linux
+
+ps -ef <br/>
+ps -ef | grep-v root  - means it will ignore the root user values... <br/>
+
+### SUDO KILL COMMANDS 
+
+sudo kill -9 process_id <br/>
+here, while running a processes in a shell script , the 1st number represents the particular child processes <br/>
+the 2nd no represents the parent process , be careful if u fill 2n no then it will forcely shut down the terminal also <br/>
+
+
 ### LS COMMANDS 
 
 ls -lsrt * - means view the files and folders.<br/>
