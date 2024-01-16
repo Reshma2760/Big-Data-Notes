@@ -17,6 +17,13 @@ head and tail are used to view the first and the last cntents of the file
 grep commands are used to see the searched word along with the files.
 grep Master ss.csv
 remember at starting grep is case sensitive, for normal grep
+now we see the grep types,,,,
+grep -i is to ignore the case sensitive
+grep -c is to count how many times that word occurs
+grep -v is not match things
+grep -w will take only the exact word only.
+grep -l will give the line no
+
 
 lets see for ss.csv file
 
