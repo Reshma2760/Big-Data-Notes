@@ -48,7 +48,42 @@ mkdir /home/hduser/samuel
 mkdir /home/hduser/samuel/ss if the folder does not exist then it will create a folder for us
 mkdir -p /home/hduser/samuel/ss , antha madri folder iruntha create panu, ilana vituru
 
+echo commands
+generally echo used to print 
 echo $? is to see whether the file is sucessfully execute or not ! 
+
+to set echo value in shell script , for eg, 
+
+echo hello
+exit 1
+
+
+using if, we do now  
+
+echo sam
+status_1=$?
+
+ec gsryhrdyh
+status_2=$?
+
+# Check the exit status of each command and set custom exit statuses
+if [ "$status_1" -eq 0 ]; then
+    echo "Command 1 succeeded with exit status $status_1"
+else
+    echo "Command 1 failed with exit status $status_1"
+    exit 1
+fi
+
+if [ "$status_2" -eq 127 ]; then
+    echo "Command 2 succeeded with exit status $status_2"
+else
+    echo "Command 2 failed with exit status $status_2"
+    exit 2
+fi
+
+# Continue with the rest of your script
+
+
 
 0 is success and 1 is error
 
@@ -73,8 +108,6 @@ cd /home/hduser/Desktop/ss.csv is  absolute path
 [localhost@hduser Desktop] - cd hello  - its an relative path,,, from a path we are going to another area
 
 cd itself (if not mentioned path_) is used to come back to the previous folder,
-
-
 
 
 
