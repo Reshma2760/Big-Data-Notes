@@ -12,7 +12,14 @@ ls -lart used to see all the hidden files along with the file size
 ls -lrt used to see all the files
 using ls -a cat the .bash_history file to see all the recently typed files, .bashrc files is to view the vriables tht are declred globally..
 
-head and tail are used to view the first and the last cntents of the file
+head and tail are used to view the first and the last contents of the file
+
+for eg, grep sam ss.csv | head -4
+grep sam ss.csv | tail -3
+| - is use to pass the values from one area to another area.
+for eg, grep sam ss.csv | wc as raw 
+wc Here, the numbers represent the wc -l line count, wc -w word count, and wc -c character count, respectively.
+
 
 grep commands are used to see the searched word along with the files.
 grep Master ss.csv
