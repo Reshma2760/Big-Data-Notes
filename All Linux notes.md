@@ -48,6 +48,37 @@ mkdir /home/hduser/samuel
 mkdir /home/hduser/samuel/ss if the folder does not exist then it will create a folder for us
 mkdir -p /home/hduser/samuel/ss , antha madri folder iruntha create panu, ilana vituru
 
+echo $? is to see whether the file is sucessfully execute or not ! 
+
+0 is success and 1 is error
+
+mv is used to move the files from one are to another area,,,,
+
+mv ss.csv /home/hduser/samuel
+there file is absent bec it is already moved like cut and paste. again i copied from samuel to hduser now i move with another name,, its also working!!!
+mv ss.csv /home/hduser/samuel/dd.csv
+
+:w - is used to write to a file
+:q - is used to quit the file
+:q! - is used to forcely quit that file
+:wq! - is used to forcely write and quit that file 
+! may require sudo password../..
+
+su username - used to change the user , for eg su root, the default password for root is root
+
+su -i is also used to go to the root.
+
+cd /home/hduser/Desktop/ss.csv is  absolute path
+
+[localhost@hduser Desktop] - cd hello  - its an relative path,,, from a path we are going to another area
+
+cd itself (if not mentioned path_) is used to come back to the previous folder,
+
+
+
+
+
+
 
 lets see for ss.csv file
 
