@@ -7,6 +7,9 @@ To stop the resource manager, use the command, stop-yarn.sh <br/>
 To see all the working progresses, we can put JPS command <br/>
 http://localhost:50070/explorer.html#/ <br/>
 
-### NOW WE SEE THE OPERATIONS OF HADOOP <br/>
+### DIFF B/W LINUX AND HADOOP <br/>
+To create a empty file in linux , we use touch samuel <br/>
+To create a some content file in linux, we use echo samuel>samuel.txt <br/>
+
 
 
