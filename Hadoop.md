@@ -11,7 +11,8 @@ http://localhost:50070/explorer.html#/ <br/>
 To create a empty file in linux , we use touch samuel <br/>
 To create a some content file in linux, we use echo samuel>samuel.txt <br/>
  ### IN HADOOP <br/>
- To create a file in hadoop we use hadoop fs -touchz /tmp/hello.txt <br/>
+ To create a empty file in hadoop we use hadoop fs -touchz /tmp/hello.txt <br/>
+ To create a folder in hadoop , we use, 
  
 
 
