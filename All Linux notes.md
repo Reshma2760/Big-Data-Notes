@@ -178,6 +178,8 @@ chmod G-rwx <br/>
 here + to give access, - to revoke permissions, r -read , w- write, x -execute. <br/>
 
 # ADD USERS
+TO view all user, go to root folder, cd / , then goto the home folder </br>
+Also to find a specific user, we can just go to the root folder, from there goto etc/ , then grep samuel passwd <br/>
 sudo is just like run as administrator in windows <br/>
 it is used to providing power to execute things <br/>
 SU means Super User <br/>
