@@ -1,5 +1,5 @@
-HI, WELCOME TO HADOOP <HDFS> <br/>
-
+## HI, WELCOME TO HADOOP <HDFS> <br/>
+### TO START HADOOP <br/>
 To start hadoop, enter the command, start-dfs.sh <br/>
 To stop hadoop, enter the command, stop-dfs.sh <br/>
 To start the resource manager, yarn, use the command , start-yarn.sh <br/>
