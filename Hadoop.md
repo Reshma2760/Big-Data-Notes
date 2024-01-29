@@ -5,4 +5,8 @@ To stop hadoop, enter the command, stop-dfs.sh <br/>
 To start the resource manager, yarn, use the command , start-yarn.sh <br/>
 To stop the resource manager, use the command, stop-yarn.sh <br/>
 To see all the working progresses, we can put JPS command <br/>
+http://localhost:50070/explorer.html#/ <br/>
+
+### NOW WE SEE THE OPERATIONS OF HADOOP <br/>
+
 
