@@ -15,7 +15,9 @@ To create a some content file in linux, we use echo samuel>samuel.txt <br/>
  To create a empty files multiple in hadoop , we use, hadoop fs -touchz /ummy/addy/yay <br/>
  To create one folder we use, hadoop fs -mkir /hello <br/>
  To create multiple folders, we use hadoop fs -mkdir -p /hello/poem/heal <br/>
+ ### FILE MOVING FROM LINUX TO HADOOP <br/>
+ To move a file from linux to hadoop we use the following, <br/>
+ hadoop fs -put /home/hduser/ss/dd.csv /bell <br/>
+ hadoop fs -get /bell/dd.csv /home/hduser <br/>
  
-
-
 
