@@ -8,3 +8,5 @@ sqoop list-tables --connect jdbc:mysql://localhost/custdb --username root --pass
 
 
 
+
+
