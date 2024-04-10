@@ -9,6 +9,10 @@ sqoop list-tables --connect jdbc:mysql://localhost/custdb --username root --pass
 # TO MOVE DATA FROM SQL TO HDFS
 
 sqoop import --connect jdbc:mysql://localhost/custdb --username root --password Root123$ \--query " select custid,age,transactamt from customer where (city ='banglore' or age>33) and\$CONDITIONS " \--target-dir /hello --delete-target-dir -m 2 --split-by custid; <br/>
+it is wrong crt one is as follows<br/>
+sqoop import --connect jdbc:mysql://localhost/custdb --username root --password Root123$ --query " select custid,age,transactamt from customer where \$CONDITIONS AND (city ='banglore' or age>33) " --target-dir /hello --delete-target-dir -m 2 --split-by custid;<br/>
+
+
 
 Using 1 mapper <br/>
 
